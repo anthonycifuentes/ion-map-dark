@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Mapa
+    </ion-title>
+    <ion-toggle slot="end" [(ngModel)]="darkMode" (ionChange)="setDarkTheme(darkMode)"></ion-toggle>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-google-map></app-google-map>
+</ion-content>
