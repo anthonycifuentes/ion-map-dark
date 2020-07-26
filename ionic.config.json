@@ -1,0 +1,7 @@
+{
+  "name": "dark-map",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
